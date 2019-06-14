@@ -1,0 +1,222 @@
+/***** BASE STYLES *****/
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2b2b;
+
+}
+
+#about, #work, #contact {
+    height: auto;
+     width: 100%;
+   /** display: flex;
+    justify-content: center;
+    align-items: center;**/
+    display: block;
+    text-align: center;
+
+}
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 75%;
+    /**display: flex;
+    justify-content: center;
+    align-items: center;**/
+    text-align: center;
+    padding: 20px;
+   
+}
+
+.third-width {
+   
+}
+
+/***** HEADER *****/
+header {
+    height:auto;
+    background-image: url('../img/images-icons/hero.png');
+    background-color:blue;
+    width:  100%;
+  background-repeat: repeat;
+  background-size: contain;
+    
+}
+header h1 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lora' serif ;
+    font-size: 30px;
+    color: #bbc085;
+    margin: 0 auto;
+}
+nav {
+   
+    padding: 75px 25px;
+}
+nav ul li{
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -50px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.4em;
+    color: #828282;
+    padding-left: 80px;
+}
+header h2 {
+    width: 100%;
+    font-family: 'Lora', serif;
+    font-size: 2.5em;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0 20px 25px;
+}
+header h2 span {
+    color: #2b2b2b;
+}
+/***** ABOUT *****/
+#about .full-width {
+    padding: 20px 0;
+}
+
+#about h2 {
+    font-family: Lora;
+    font-size: 2.5em;
+    padding-left: 45px;
+    text-align: center;
+}
+ 
+#about p {
+    width: 100%;
+    font-size: 1.25em;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+}
+
+/***** WORK *****/
+
+#work{
+    background-color:  #f9ceb7;
+    text-align: center;
+}
+#work .full-width {
+    padding: 115px 0;
+}
+ 
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height:32px;
+    width: 190px;
+    margin: 0 auto;
+}
+ 
+#work p {
+    font-family: 'Lora' serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+
+}
+
+/***** CONTACT *****/
+#contact{
+    background-color: #ebebeb;
+    display: flex;
+}
+#contact .half-width {
+    /*padding: 110px 0;*/
+     width: 100%;
+
+
+}
+.half-width #contact-info{
+    }
+
+   
+
+  footer  ul{
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin: 20px 30px;
+    }
+ 
+  footer ul, li{
+            margin: 20px 30px;
+    }
+
+@media (min-width: 768px) { 
+   #top-bar{
+          display: flex;
+          margin-top: -20px;
+          margin-left: 150px;
+          
+   }
+
+   nav ul{
+    display: flex;
+    justify-content: space-between;
+   }
+
+header .full-width .half-width {
+    display: flex;
+    padding: 0;
+
+}
+
+#contact-img{
+        border: 20px solid white;
+}
+
+header h1 {
+    
+    margin: 0;
+}
+
+header {
+    height:800px;
+    background-image: url('../img/images-icons/hero.png');
+    background-color:blue;
+    width:  100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+
+}
+
+header h2{
+    margin: 40px 100px ;
+    font-size: 3.75em;
+    line-height: 1.6;
+    text-align:left;
+}
+
+.one{
+    display: flex;
+}
+
+#work .full-width ,#contact .full-width {
+    display: flex;
+    padding-top: 80px;
+
+}
+}

@@ -1,0 +1,217 @@
+/***** BASE STYLES *****/
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+     background-color: #1f202b;
+     color: #ffffff;
+     font-size: 16px
+}
+
+.full-width{
+   width: 90%;
+   margin: 0 auto;
+   }
+
+.half-width{
+    width: 100%;
+}
+
+h1{
+  font-size: 1.245em;
+  margin-top: -25px;
+  margin-left:px;
+  position: absolute;
+
+ 
+}
+
+
+nav{
+   /* display: flex;
+    /*align-items: center;
+    justify-content: center;*/
+    width: 100%; 
+     font-size: 0.650em;
+
+}
+
+ul{
+  display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+li{
+  list-style: none;
+   margin: 10px auto;
+}
+
+
+li a{
+  text-decoration: none;
+    color: black;
+    font-size: 1.25em;
+    line-height: 1.85;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+#topic{
+    font-size:3.0em;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+span, h3{
+   color: #fa0075; 
+}
+
+header {
+    height:500px;
+    background-image: url("../../crushingit-design-files/images-icons/sample1.png");
+    background-size: cover;
+    margin: 100px auto;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#portfolio {
+     width: 100%;
+     flex-flow: row wrap;
+     margin: 10px50px;
+}
+#portfolio-header {
+   font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;
+    text-transform: capitalize;
+}
+
+
+.half-width h3,.half-width p{
+     text-align: center;
+     font-size: 1.0em;
+}
+
+
+ 
+.half-width img {
+    border: 0;
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+}
+
+
+.full-width{
+  margin-bottom: 100px
+}
+
+.full-width .half-width p{
+
+  padding: 60px;
+}
+
+.half-width .port-img{
+  border: 10px solid grey;
+}
+#about-me{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.8em;
+    margin: -30px;
+    line-height: 2;
+    text-transform: capitalize;
+}
+
+.half-width p{
+  line-height: 1.8
+}
+
+#contact full-width{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.full-width h4{
+    font-size: 1.5em;
+   text-align: center;
+}
+
+#hire-me{
+
+}
+
+h5, .third-width p{
+  text-align: center;
+}
+
+#social-network{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#copyright p{
+  text-align: center;
+  font-size: 1.12em;
+}
+
+
+@media only screen and (min-width: 768px) {
+  #one{
+    display: flex;
+     justify-content: space-around;
+  }
+
+h1{
+  font-size: 1.60em;
+  position: absolute;
+    margin-top: -30px;
+    margin-left: -40px;
+ /** margin-left: -300px;
+  padding-top: 50px;**/
+  }
+
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  font-size: 1.0em;
+  position: absolute;
+      position: sticky;
+       margin-bottom: 50px;
+}
+  nav{
+    margin-top: -65px;
+    font-size: 1.01em;
+  }
+
+li a{
+  color:white;
+}
+
+#topic{
+    font-size: 5.5em;
+  margin-left: 0px;
+  display:block;
+      padding-left: 50px;
+
+}
+
+#portfolio .full-width{
+  display: flex;
+  margin: 30px 100px;
+}
+
+}
+

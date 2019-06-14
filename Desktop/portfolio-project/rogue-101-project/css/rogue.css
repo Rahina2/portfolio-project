@@ -1,0 +1,148 @@
+
+/***BASE style****/
+body{
+	font-family: 'Montserrat' 'Playfair Display', sans-serif;
+    color: #2b2b2b;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width:1200px;
+    margin: 0 auto; 
+ }
+
+.half-width {
+    width:600px;
+    float: left; 
+}
+
+.third-width {
+    width: 400px;
+    float: left; 
+    height: 200px;
+    box-sizing: border-box;
+   }
+
+
+/****HEADER****/
+h1{
+	margin: 0;
+	padding: 80px 20px 20px 10px;
+	text-transform: uppercase;
+}
+
+#rogue{
+	color: #77a466;
+}
+
+nav{
+   	float: right;
+   	padding:80px 0px 0px 10px; 
+}
+ 
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	color: #77a466;
+	text-decoration: none;
+}
+
+a{
+	color: #77a466;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding:70px 4px 10px 5px;
+	font-weight: bold;
+	font-size: 14px;
+}
+/***IMAGE***/
+img{
+	max-width: 100%
+
+}
+#main-image{
+	border-top: #77a466 solid 2px;
+	border-bottom: #77a466 solid 2px;
+
+}
+/*****SECTION*****/
+h2{
+ margin: 20px 10px;
+ text-transform: uppercase;
+ color: #77a466;
+
+}
+
+#fact{
+	margin:10px;
+	line-height: 25px;
+	text-align:justify;
+	font-size: 20px;
+}
+
+.third-width h3{
+   text-transform:uppercase;
+   margin: 30px;
+}
+
+#menu ul li{
+	margin: 10px 10px 20px 0px;
+  list-style: none;
+   color: #7aa536;
+  font-weight: bold;
+  text-transform:capitalize;
+  font-size: 16px;
+ 
+}
+
+
+
+
+#review   p{
+	padding:10px;
+	margin: 1px 10px ;
+    text-align: justify;
+	line-height: 20px;
+	border: 1px;
+	font-size: 16px;
+	
+
+}
+	
+
+#contact  p{
+	padding:10px;
+	margin: 10px 20px ;
+    text-align: justify;
+	line-height: 20px;
+	font-size: 20px;
+}
+
+/***BORDER***/
+.third-width{
+	border-top: solid #efefef 1px;
+	border-bottom: solid #efefef 3px;
+	
+}
+
+#menu,#review{
+	border-right: solid #efefef 1px;
+}
+
+
+
+/****FOOTER****/
+#footer p{
+	clear:both;
+	margin: 250px 200px 200px 420px;
+    text-transform: uppercase;
+    font-weight: bold;
+ }
+
+#fresh{
+    color: #77a466;
+    font-family: Ranga;
+    font-style: italic;
+    text-transform: lowercase;
+}

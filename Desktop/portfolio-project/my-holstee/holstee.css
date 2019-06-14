@@ -1,0 +1,122 @@
+p, div{
+margin:0px;
+padding:0;
+}
+
+#main-div{
+  width:510px;
+  height:auto;
+  background-color:gray;
+  box-sizing:border-box;
+  text-align:center;
+  margin: 0 auto;
+  border: solid 5px grey;
+}
+
+
+.long-div-top-left{
+	
+	background-color:#F16059;
+	width: 50%;
+	font-size:1.5em;
+}
+
+
+.long-div{
+	display: flex;
+}
+
+#para1{font-family:Old Standard;
+	   padding:40px 20px ;
+	}
+
+#para2{font-family:Rosario;
+	  padding:40px 20px;
+}
+
+.long-div-top-right{
+  width: 250px;
+   height:400px;
+	font-size:1.5em;
+	
+}
+	
+ .short-div1{
+	 background-color:#4257AD;
+	padding: 20px;
+	 font-family:Indie Flower;
+}
+	
+	
+	.short-div2{
+		background-color:#D0FEF5;
+		padding:20px;
+		 font-family:Libre Franklin;
+}
+
+.hori-div{
+  display: flex;
+}
+
+.short-div3{
+    background-color:#4257AD;
+	padding:10px;
+	 font-family:Source Serif Pro;
+	 font-size:22px;
+	 width: 100%;
+	
+}
+	
+.short-div4{
+    background-color:#4F9DA8;
+	padding:30px 10px;
+	 font-size:1.5em;
+	 font-family:Shadows Into Light;
+	width: 100%;
+}
+
+.long-div-bot-right{
+	width: 100%;
+	font-size:1.3em;
+
+	
+}
+.para7{
+   background-color:#D0FEF5;
+	padding: 20px 90px;
+	font-family:Shadows Into Light;
+	
+	
+}
+
+.para8{
+    background-color:#4F9DA8;
+    padding: 50px 30px;
+	font-family:Spicy Rice;
+	}
+
+
+.long-div-bot-left {
+         font-size:1.4em;
+         background-color:#F16059; 
+         padding: 0 20px;
+         width: 100%;
+         padding: 0;
+}
+
+.para9{
+   
+	font-family:Spicy Rice;
+	padding:10px 20px;
+}
+
+.para10{
+   
+	font-family:Shadows Into Light;
+	padding: 50px 10px 10px 10px;
+	text-align:center;
+	margin-bottom: -20px;
+}
+
+
+
